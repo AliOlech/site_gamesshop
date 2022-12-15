@@ -9,13 +9,21 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+    
+    @font-face {
+        font-family: SkateFont;
+        src: url('./BillSkate.ttf');
+    }
+    </style>
 
 </head>
 <body>
     <header>
         <div class="container">
-        <h1>Games Shop</h1>
+        <h1>Skate Shop</h1>
         <nav>
             <ul>
                 <li>
@@ -24,15 +32,63 @@
                 <li>
                     <a href="#contact">Contato</a>
                 </li>
+                <li>
+                    <a href="#Comprar">Loja Online</a>
+                </li>
             </ul>
         </nav>
         </div>
     </header>
 
     <section id="about">
-        <div class="container">
-            <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja Games Shop" />
-            <div>
+            <div class="content">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <input type="radio" name="slide" id="slide5">
+
+                    <div class="slide s1">
+                        <img src="./images/skate.jpg" alt="Nora Vasconcelos skateboarding" />
+
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/skate2.jpg" alt="Sky skateboarding" />
+                        
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/skate3.jpeg" alt="Fadinha do skate mandando trick" />
+                        
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/skate4.jpg" alt="Japao skateboarding" />
+                        
+                    </div>
+
+                    <div class="slide">
+                        <img src="./images/skate5.jpg" alt="Leticia no skate" />
+                        
+                    </div>
+
+                    <div class="navigation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                        <label class="bar" for="slide4"></label>
+                        <label class="bar" for="slide5"></label>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+        <section>
+            <div class="container">
+            <div class="sobre">
                 <h2>Sobre a Loja</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatem tempora nam ab, odio iste explicabo amet quos dignissimos est fugit optio. Possimus quis similique suscipit quo quod perferendis molestias.
@@ -40,12 +96,18 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, deserunt maiores nam hic animi doloremque obcaecati nostrum facilis aliquid laudantium? Possimus adipisci, rem soluta quia laboriosam assumenda perspiciatis inventore eveniet?
                 </p>
+            <br><br><br>
                 <ul class="brands-list">
-                    <li><img src="./images/nintendo.png" alt="Nintendo" /></li>
-                    <li><img src="./images/xbox.png" alt="Xbox" /></li>
-                    <li><img src="./images/playstation.png" alt="Playstation" /></li>
+                    <li><img src="./images/vans.png" alt="vans" /></li>
+                    <li><img src="./images/independent.png" alt="independent" /></li>
+                    <li><img src="./images/santacruz.png" alt="santacruz" /></li>
+                    <li><img src="./images/spitfire.png" alt="spitfire" /></li>
+                    <li><img src="./images/thrasher.png" alt="thrasher" /></li>
+                    <li><img src="./images/creature.png" alt="creature" /></li>
                 </ul>
             </div>
+            </div>
+        </div>
         </div>
     </section>
 
@@ -84,9 +146,9 @@
                     </ul>
                 </div>
                 <div>
-                    <h3>Venha ate nos</h3>
+                    <h3>Localização</h3>
                     <p>
-                        Rua JavaScript n 124, Vila Html - Sao Paulo SP
+                        Rua Socorro N# 124, Vila Sesamo - Sao Paulo SP
                     </p>
                 </div>
             </div>
@@ -95,7 +157,7 @@
     <footer>
         <div class="container">
             <p>
-                &copy; Games Shop - Todos os direitos reservados - 2022
+                &copy; Skate Shop - Todos os direitos reservados - 2022
             </p>
         </div>
     </footer>
